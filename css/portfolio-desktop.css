@@ -1,0 +1,225 @@
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 73.33%;
+}
+
+.col-10 {
+    width: 81.66%;
+}
+
+.col-11 {
+    width: 92.33%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* nabar starts here */
+
+
+.logo {
+    text-align: center;
+}
+
+.header {
+    text-align: left;
+}
+
+/* [class*='col-'] {
+    float: left;
+
+} */
+
+.logo , .header , .nav-menu{float: left;}
+
+.nav-bar::after {
+    clear: both;
+    display: table;
+    content: ''
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+
+
+
+
+
+
+/* nabar ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* profile starts here */
+
+
+.profile .top-weather-images {
+
+    right: 120px;
+
+    transition: width 2s, transform 2s;
+    width: 200px;
+
+
+
+
+}
+
+.profile .top-weather-images:hover {
+    width: 300px;
+}
+
+
+.profile .bottom-weather-images {
+    position: absolute;
+    left: 70px;
+    bottom: 20px;
+    transition: transform 2s, width 2s;
+    width: 200px;
+
+}
+
+.profile .bottom-weather-images:hover {
+    width: 300px;
+}
+
+
+
+.profile-desc p {
+    color: gray;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto 50px auto;
+
+}
+
+.profile::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/* profile ends here */
+
+
+
+
+/*professional experience start */
+
+
+.achievement {
+    padding-right: 10px;
+}
+
+
+.contact-links {
+    position: relative;
+}
+
+.media-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 200px;
+}
+
+
+/*professional experience ends */
+
+
+
+
+
+/* achievement starts here */
+
+.achievement {
+    padding-right: 50px;
+}
+
+.contact button {
+    width: 150px;
+}
+
+.contact-links {
+    position: relative;
+}
+
+.media-buttons {
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* achievement ends here */
+
+
+
+
+/* footer starts from here  */
+.footer-menu {
+    margin-top: 12px;
+}
+
+.footer-menu a {
+    display: inline;
+    margin: 10px;
+
+}
+
+/* footer ends here  */

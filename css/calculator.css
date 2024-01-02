@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+    font-size: 0;
+
+
+    margin: 0 auto;
+
+}
+
+.card .calc-head .inp {
+    width: 290px;
+    height: 100px;
+    text-align: right;
+    font-size: 40px;
+    padding: 10px;
+    letter-spacing: 3px;
+
+}
+
+.calc-body {
+    width: 300px;
+
+
+}
+
+.calc-body .btn {
+    width: 72px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin: 1px;
+
+    box-sizing: border-box;
+
+
+}
+
+.card:hover {
+    box-shadow: 10px 14px 15px black;
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.un{ width: 72px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    margin: 1px;
+
+    box-sizing: border-box;
+}
